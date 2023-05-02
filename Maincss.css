@@ -1,0 +1,75 @@
+/* Set the background color to black */
+body {
+  background-color: black;
+}
+
+/* Set the font family and color */
+body, h1, h2, h3, p {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+/* Style the header */
+header {
+  background-color: #4d0000;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the logo */
+#logo {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+/* Style the navigation bar */
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #ff4d4d;
+}
+
+/* Style the main content */
+main {
+  background-color: #1a1a1a;
+  padding: 50px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style the heading */
+main h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Style the paragraph */
+main p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Style the hammer and sickle image */
+#hammer-sickle {
+  width: 200px;
+  margin-top: 50px;
+}
